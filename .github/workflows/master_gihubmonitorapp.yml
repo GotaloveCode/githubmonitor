@@ -39,4 +39,4 @@ jobs:
           app-name: 'gihubmonitorapp'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_000767AACD9F4748914BDBEF8E583778 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8BFDC7F20B6A47F6A6D3927C5186B0CA }}
