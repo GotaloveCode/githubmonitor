@@ -26,6 +26,7 @@ namespace Iriga.GithubMonitorApp
             log.LogInformation(requestBody);
             
             // return new OkResult();
+            
             name = name ?? data?.name;
 
             return name != null
