@@ -24,6 +24,7 @@ namespace Iriga.GithubMonitorApp
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             dynamic data = JsonConvert.DeserializeObject(requestBody);
             log.LogInformation(requestBody);
+            
             // return new OkResult();
             name = name ?? data?.name;
 
